@@ -1,0 +1,109 @@
+html {
+  background-color: #d9e2fa;
+}
+body {
+  margin-left: 230px;
+  margin-right: 230px;
+}
+h1 {
+  color: #191970;
+  font-family: monospace;
+  text-align: center;
+}
+h2 {
+  color: midnightblue;
+  text-align: center;
+  font-family: monospace;
+}
+.h2-about {
+  text-align: center; /*change to percentage */
+  color: midnightblue;
+  font-family: monospace;
+}
+#About-Jerald-Williamson {
+  color: midnightblue;
+  text-align: center;
+  font-family: monospace;
+}
+h3 {
+  color: white;
+  text-align: left;
+  font-family: monospace;
+}
+h4 {
+  text-align: center;
+}
+.mission-statement {
+  text-align: center;
+}
+/* this is where fig-1 goes*/
+figure {
+  float: left;
+  width: 260px;;
+  height: auto;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+figcaption {
+  text-align: center;
+  
+}
+.img {
+  width: 95%;
+  height: 250px;
+  position: inherit;
+}
+p {
+  text-align: left;
+  margin: 12px;
+  padding: 25px;
+}
+
+nav {
+  width: auto;
+  position: sticky;
+  text-align: center;
+  }
+nav li {
+  display: inline-block;
+  border: solid navy 10px;
+  text-align: center;
+  width: 200px;
+  padding: 15px 20px;
+}
+a:link nav {
+  text-decoration: none;
+}
+a:visited nav {
+  color: navy;
+  text-decoration: none;
+}
+.footer {
+  text-align: center;
+  position: fixed;
+  background: navy;
+  width: 100%;
+  color: white;
+}
+.h3-footer {
+  text-align: center;
+}
+footer li {
+  text-align: center;
+  display: inline-block;
+}
+a:visited footer {
+  color: white;
+}
+.copyright {
+  text-align: center;
+}
+
+aside {
+  float: right;
+  width: 38%;
+}
+/* Media Queeries ------------- */

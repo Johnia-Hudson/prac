@@ -1,0 +1,28 @@
+body {
+  background-color: white;
+  color: skyblue;
+}
+a:visited {
+  color: indigo;
+}
+nav {
+
+  position: sticky;
+}
+
+.truck{
+ backface-visibility:visible;
+}
+footer {
+  text-align: center;
+  position: fixed;
+  background: indigo;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+.par {
+  display: inline;
+}
